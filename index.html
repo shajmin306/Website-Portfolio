@@ -14,12 +14,19 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css"/ >
     <title>Shajmin Rahman Website</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-black">
+    <nav class="navbar navbar-expand-lg navbar-grey">
       <div class="container-fluid">
-        <a class="navbar-brand text-black" href="/">Shajmin Rahman</a>
+        <a class="navbar-brand text-white" href="/">Shajmin Rahman</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -34,7 +41,7 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
             <a
-              class="nav-link text-black active"
+              class="nav-link text-white active"
               aria-current="page"
               href="/"
               title="Homepage"
@@ -42,19 +49,19 @@
             >
 
             <a
-              class="nav-link text-black"
+              class="nav-link text-white"
               href="./fashion.html"
               title="Fashion Designs"
               >Fashion Design</a
             >
             <a
-              class="nav-link text-black"
+              class="nav-link text-white"
               href="./web.html"
               title="Web Projects"
               >Web Design</a
             >
             <a
-              class="nav-link text-black"
+              class="nav-link text-white"
               href="./contact.html"
               title="Contact Page"
               >Contact</a
@@ -69,7 +76,7 @@
         <p class="mb-4">Front-end developer based in Manchester, UK</p>
         <a href="./contact.html" class="learn-more mb-4">Contact Me </a>
       </div>
-      <p class="mb-5">Have a look at my work 👇🏾</p>
+      <p class="mt-4 mb-5">Have a look at my work 👇🏾</p>
     </header>
     <main>
       <div class="container">
@@ -82,7 +89,14 @@
           <br />
           <em>Check out some of the product I have developed over the years</em>
         </p>
-        <a href="./fashion.html">Learn More</a>
+        <a href="./fashion.html" class="learn-more">Learn More</a>
+        <br />
+        <img
+          src="IMAGES/PY 4.png"
+          alt="Fashion Range Preview"
+          class="img-fluid mt-3 mb-5 main-image"
+        />
+
         <h3>Web Design</h3>
         <p>
           I have decided to pursue web development as I see this as an
@@ -91,11 +105,34 @@
           <br />
           <em>Have a look at some projects I have worked on</em>
         </p>
-        <a href="./web.html">Learn More</a>
+        <a href="./web.html" class="learn-more">Learn More</a>
+        <br />
+        <img
+          src="IMAGES/weather.png"
+          alt="Web Projects Preview"
+          class="img-fluid mt-3 mb-5 main-image"
+        />
       </div>
     </main>
     <footer>
-      This website was coded by Shajmin Rahman and is open-sourced on Github
+      <p class="mb-3">Contact Me</p>
+      <div class="social-links d-flex justify-content-center mb-3">
+        <a href="mailto:shajrahman@outlook.com"
+          ><i class="fa-solid fa-envelope" title="Email Shajmin"></i
+        ></a>
+        <a href="https//www.linkedin.com/in/shajmin-rahman" target="_blank"
+          ><i class="fa-brands fa-linkedin" title="LinkedIn Profile"></i
+        ></a>
+        <a href="https://github.com/shajmin306" target="_blank"
+          ><i class="fa-brands fa-square-github" title="Github Profile"></i
+        ></a>
+      </div>
+      This website was coded by
+      <a href="https://github.com/shajmin306" target="_blank">Shajmin Rahman</a>
+      and is open-sourced on
+      <a href="https://github.com/shajmin306/Website-Portfolio" target="_blank"
+        >Github</a
+      >
     </footer>
   </body>
 </html>
