@@ -62,18 +62,16 @@ footer .social-links a {
   color: white;
   font-size: 20px;
   background-color: var(--primary-brand-colour);
-  padding: 22px 24px;
+  padding: 15px 19px;
   border-radius: 50%;
   transition: all 100ms ease-in-out;
 }
 footer .social-links a:hover {
-  color: black;
+  color: var(--primary-brand-colour);
   background-color: white;
   border: 1px solid var(--primary-brand-colour);
 }
-.social-links i {
-  color: white;
-}
+
 .navbar-grey {
   background-color: var(--primary-brand-colour);
 }
