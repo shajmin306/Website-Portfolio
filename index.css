@@ -4,6 +4,10 @@
   --default-font-family: "Gowun Dodum", sans-serif;
 }
 
+body {
+  background-color: #f1f1f1;
+}
+
 h1,
 h2,
 h3,
@@ -12,18 +16,39 @@ h5 {
   color: black;
   font-family: var(--default-font-family);
 }
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
 header {
-  display: block;
-  text-align: center;
-  margin-top: 100px;
+  background-image: url(IMAGES/PY\ 5.jpg);
+  max-width: 1400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  padding: 400px;
+  margin: 0 auto;
 }
 
+header .hero {
+  color: white;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
+
+header h1 {
+  color: white;
+  text-align: center;
+}
 h1 {
   font-size: 100px;
   font-weight: bold;
 }
 
-.container {
+.main-content {
+  text-align: center;
+  display: block;
   text-align: center;
 }
 
