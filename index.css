@@ -23,6 +23,11 @@ header {
   background-size: cover;
   max-width: 100%;
   margin: 0 auto;
+  min-height: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 header .hero {
@@ -49,6 +54,11 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
   max-width: 100%;
+  min-height: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .main-content {
@@ -60,7 +70,7 @@ main {
 .main-content p {
   color: white;
   text-align: left;
-  margin-right: 50px;
+  padding-left: 80px;
 }
 .learn-more {
   background: white;
