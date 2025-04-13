@@ -71,8 +71,11 @@ main {
   color: white;
   text-align: left;
   padding-left: 80px;
+  font-size: 16px;
 }
 .learn-more {
+  position: relative;
+  top: 80px;
   background: white;
   color: #113b39;
   text-decoration: none;
