@@ -19,9 +19,10 @@ h5 {
 }
 
 img {
-  width: 600px;
+  width: 1000px;
   display: block;
   margin: 0 auto;
+  margin-top: 20px;
 }
 header {
   background-image: url(../Website-Portfolio/IMAGES/PY\ 1.png);
@@ -41,6 +42,12 @@ p {
   margin: auto;
   margin-bottom: 50px;
   width: 1000px;
+}
+
+.moodboards {
+  background-color: #242a38;
+  padding: 10px;
+  padding-bottom: 30px;
 }
 footer {
   text-align: center;
