@@ -46,7 +46,7 @@ h1 {
   font-weight: bold;
 }
 
-p {
+header p {
   font-size: 24px;
 }
 main {
@@ -117,11 +117,30 @@ main {
   cursor: pointer;
 }
 
+.logos {
+  display: flex;
+  justify-content: space-around;
+}
+
+.brands {
+  background-color: #d7d2d0;
+  padding: 40px;
+}
+
+.brands p {
+  color: black;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 40px;
+}
 footer {
   text-align: center;
   margin: 40px 0;
 }
 
+footer p {
+  font-size: 24px;
+}
 footer .social-links a {
   margin: 0 40px;
   color: white;
