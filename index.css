@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: #f1f1f1;
+  background-color: #ffffff;
 }
 
 h1,
@@ -40,12 +40,13 @@ header .hero {
 header h1 {
   color: white;
   text-align: center;
-}
-h1 {
   font-size: 100px;
   font-weight: bold;
 }
 
+h2 {
+  color: white;
+}
 header p {
   font-size: 24px;
 }
@@ -75,7 +76,7 @@ main {
 }
 .learn-more {
   position: relative;
-  top: 80px;
+  top: 100px;
   background: white;
   color: #113b39;
   text-decoration: none;
@@ -123,7 +124,7 @@ main {
 }
 
 .brands {
-  background-color: #d7d2d0;
+  background-color: #f7f7f7;
   padding: 40px;
 }
 
@@ -164,6 +165,103 @@ footer .social-links a:hover {
 }
 @media (max-width: 960px) {
   h1 {
-    font-size: 66px;
+    font-size: 60px;
+  }
+
+  header {
+    background-image: url(IMAGES/PY\ 5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    margin: 0 auto;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  header h1 {
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+  }
+
+  h2 {
+    color: white;
+  }
+  header p {
+    font-size: 14px;
+  }
+  main {
+    background-image: url(IMAGES/PY\ 6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main-content p {
+    color: white;
+    text-align: left;
+    padding-left: 80px;
+    font-size: 12px;
+  }
+
+  .learn-more {
+    position: relative;
+    top: 50px;
+    background: white;
+    color: #113b39;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-size: 18px;
+    transition: all 100ms ease-in-out;
+  }
+
+  .learn-more:hover {
+    background: #113b39;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 1px solid var(--primary-brand-colour);
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+
+  .brands p {
+    color: black;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  footer {
+    text-align: center;
+    margin: 40px 0;
+  }
+
+  footer p {
+    font-size: 16px;
+  }
+  footer .social-links a {
+    margin: 0 40px;
+    color: white;
+    font-size: 16px;
+    background-color: var(--primary-brand-colour);
+    padding: 8px 12px;
+    border-radius: 50%;
+    transition: all 100ms ease-in-out;
+  }
+  footer .social-links a:hover {
+    color: var(--primary-brand-colour);
+    background-color: white;
+    border: 1px solid var(--primary-brand-colour);
   }
 }
