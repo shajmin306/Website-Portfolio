@@ -18,12 +18,13 @@ h5 {
 }
 
 header {
-  background-image: url(IMAGES/PY\ 5.jpg);
+  background-image: url(IMAGES/PY\ 17.png);
   background-repeat: no-repeat;
   background-size: cover;
-  max-width: 100%;
-  margin: 0 auto;
-  min-height: 1000px;
+  background-position: center;
+  width: 100%;
+  height: 80vh;
+  margin: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -31,14 +32,17 @@ header {
 }
 
 header .hero {
-  color: white;
+  color: black;
   text-align: center;
   display: block;
   margin: 0 auto;
+  background-color: rgba(128, 128, 128, 0.4);
+  padding: 30px;
+  width: 100%;
 }
 
 header h1 {
-  color: white;
+  color: black;
   text-align: center;
   font-size: 100px;
   font-weight: bold;
@@ -169,26 +173,27 @@ footer .social-links a:hover {
   }
 
   header {
-    background-image: url(IMAGES/PY\ 5.jpg);
+    background-image: url(IMAGES/PY\ 17.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     max-width: 100%;
-    margin: 0 auto;
-    min-height: 400px;
+    height: 50vh;
+    margin: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
   header h1 {
-    color: white;
+    color: black;
     text-align: center;
-    font-size: 60px;
+    font-size: 40px;
     font-weight: bold;
   }
 
   h2 {
-    color: white;
+    color: black;
   }
   header p {
     font-size: 14px;
