@@ -138,6 +138,31 @@ main {
   text-align: center;
   margin-bottom: 40px;
 }
+
+services {
+  background-image: url(IMAGES/PY\ 5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  min-height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 75%;
+}
+
+.service-content h2 {
+  color: white;
+  font-size: 36px;
+  font-weight: bolder;
+  text-align: center;
+}
+.service-content p {
+  color: white;
+  font-size: larger;
+  text-align: center;
+}
 footer {
   text-align: center;
   margin: 40px 0;

@@ -1,0 +1,86 @@
+:root {
+  --primary-brand-colour: #525050;
+  --secondary-brand-colour: #d8d5ce;
+  --default-font-family: "Gowun Dodum", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  color: black;
+  font-family: var(--default-font-family);
+}
+
+.content {
+  text-align: center;
+  padding: 30px;
+}
+
+img {
+  width: 1000px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+header {
+  background-image: url(../Website-Portfolio/IMAGES/PY\ 1.png);
+  background-repeat: no-repeat;
+  padding: 100px 50px 0;
+  margin: 0;
+}
+
+h1 {
+  font-size: 100px;
+  font-weight: bold;
+  text-align: center;
+}
+
+p {
+  display: block;
+  margin: auto;
+  margin-bottom: 50px;
+  width: 1000px;
+}
+
+.moodboards {
+  background-color: #242a38;
+  padding: 10px;
+  padding-bottom: 30px;
+}
+footer {
+  text-align: center;
+  margin: 40px 0;
+}
+
+footer .social-links a {
+  margin: 0 40px;
+  color: white;
+  font-size: 20px;
+  background-color: var(--primary-brand-colour);
+  padding: 15px 19px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+footer .social-links a:hover {
+  color: var(--primary-brand-colour);
+  background-color: white;
+  border: 1px solid var(--primary-brand-colour);
+}
+
+.navbar-grey {
+  background-color: var(--primary-brand-colour);
+}
+.navbar-toggler {
+  background-color: white;
+}
+
+@media (max-width: 960px) {
+  h1 {
+    font-size: 66px;
+  }
+  p {
+    width: 600px;
+  }
+}
